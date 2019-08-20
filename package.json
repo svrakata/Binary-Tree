@@ -1,0 +1,32 @@
+{
+  "name": "bio_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register --timeout 10000 --watch 'src/**/*.spec.ts'",
+    "start": "./node_modules/.bin/ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svrakata/bio_parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svrakata/bio_parser/issues"
+  },
+  "homepage": "https://github.com/svrakata/bio_parser#readme",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "@types/puppeteer": "^1.19.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "puppeteer": "^1.19.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.0-dev.20190720"
+  }
+}

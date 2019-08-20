@@ -1,2 +1,1 @@
-# Binary-Tree
-Trying out binary tree with TS
+# Binary Tree with TypeScript

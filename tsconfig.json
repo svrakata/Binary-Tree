@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": ["es6","dom"],
+        "types": ["node", "mocha"],
+        "rootDir": "src",
+        "outDir": "lib",
+        "module": "commonjs"
+    },
+    "include": [
+        "node_modules/@types/puppeteer/index.d.ts"
+    ]
+}
